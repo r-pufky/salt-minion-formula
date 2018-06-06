@@ -1,0 +1,12 @@
+minion:
+  lookup:
+    # see defaults.yaml for values, the options listed here
+    service: salt-minion
+
+    path:
+      windows:
+      osx:
+      linux: /etc/salt/minion.d
+
+    release:
+      reference_doc: https://docs.saltstack.com/en/latest/ref/configuration/minion.html

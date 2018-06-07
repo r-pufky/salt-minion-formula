@@ -7,7 +7,7 @@ copy_minion_configs:
     - dir_mode: 0755
     - file_mode: 0744
     - user: root
-    - group: staff
+    - group: root
 
 minion_service:
   service.running:

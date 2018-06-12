@@ -10,3 +10,8 @@ minion:
 
     release:
       reference_doc: https://docs.saltstack.com/en/latest/ref/configuration/minion.html
+
+  config:
+    # Where minion files should be sourced from. Should be set somewhere within
+    # your environment. Watch out for namespace collisions with formula.
+    source: salt://binaries/minions

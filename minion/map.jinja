@@ -1,3 +1,4 @@
 {%- import_yaml "minion/defaults.yaml" as defaults -%}
 
 {%- set minion = salt['pillar.get']('minion:lookup', defaults.minion, merge=True) -%}
+{%- set config = salt['pillar.get']('minion:config', {}) -%}

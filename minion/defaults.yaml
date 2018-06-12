@@ -1,6 +1,8 @@
 minion:
   service: salt-minion
 
+  source: salt://minion/files
+
   path:
     windows:
     osx:
